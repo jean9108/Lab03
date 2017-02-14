@@ -1,0 +1,20 @@
+<div class = "container">
+  <form>
+    <div class = "col-sm-9">
+        <label>Prioridad</label>
+        <div class="col-sm-12">
+            <input type="number" class = "form-control" ng-model = "lista.prioridad"/>
+        </div>
+    </div>
+    <div class="col-sm-9">
+        <label>Descripcion</label>
+        <textarea class="form-control" rows="3" id="comment" ng-model = "lista.descripcion"></textarea>
+    </div>
+    <div></div>
+    <div class="col-sm-12">
+      <div style="align:center; margin-top:20px;">
+          <input class="btn btn-primary" type="button" value="Guardar" ng-click = "add()"/>
+      </div>
+    </div>
+  </form>
+</div>
